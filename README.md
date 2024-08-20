@@ -3,7 +3,7 @@
     
     
 ## About this project  
-    This is a development project based on existing work. Following the model architecture, we propose UTFormer, an ultra-lightweight transformer model for rapid traffic analysis.Two technologies are proposed, named dynamic bytes selecting and SGD-based searching for model architecture.Evaluation results on two different datasets (ISCX-VPN-2016、USTC-TFC) and three traffic analysis reveal that compared with other transformer models, UTFormer achieves 196.4-346.7X reduction on computation.
+This is a development project based on existing work. Following the model architecture, we propose UTFormer, an ultra-lightweight transformer model for rapid traffic analysis.Two technologies are proposed, named dynamic bytes selecting and SGD-based searching for model architecture.Evaluation results on two different datasets (ISCX-VPN-2016、USTC-TFC) and three traffic analysis reveal that compared with other transformer models, UTFormer achieves 196.4-346.7X reduction on computation.
 
  
 ## Prerequisites
@@ -27,6 +27,7 @@
     torchvision==0.16.1
 
 ### Download datasets
+The validation of our UTFormer model is implemented on ISCX-VPN-2016 (ISCX) [25] dataset and USTC-TFC (USTC) dataset with three different traffic analysis tasks. ISCX dataset contains of 6 categories of encrypted traffic from 17 different applications. We train UTFormer for encrypted traffic classification on ISXC. USTC dataset contains traffic from 19 real-world applications with 9 different services. Traffic from 6 common malware applications is also collected by USTC dataset. UTFormer is trained on USTC for service traffic classification and malware traffic detection respectively.
 - [ISCX-VPN-2016]("https://www.unb.ca/cic/datasets/vpn.html")
 - [USTC-TFC]("https://github.com/yungshenglu/USTC-TFC2016")
  
