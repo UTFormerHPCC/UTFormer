@@ -28,8 +28,8 @@ This is a development project based on existing work. Following the model archit
 
 ### Download datasets
 The validation of our UTFormer model is implemented on ISCX-VPN-2016 (ISCX) [25] dataset and USTC-TFC (USTC) dataset with three different traffic analysis tasks. ISCX dataset contains of 6 categories of encrypted traffic from 17 different applications. We train UTFormer for encrypted traffic classification on ISXC. USTC dataset contains traffic from 19 real-world applications with 9 different services. Traffic from 6 common malware applications is also collected by USTC dataset. UTFormer is trained on USTC for service traffic classification and malware traffic detection respectively.
-- [ISCX-VPN-2016]("https://www.unb.ca/cic/datasets/vpn.html")
-- [USTC-TFC]("https://github.com/yungshenglu/USTC-TFC2016")
+- **ISCX-VPN-2016:** <https://www.unb.ca/cic/datasets/vpn.html>
+- **USTC-TFC:** <https://github.com/yungshenglu/USTC-TFC2016>
  
 # Directory description
     ├── readme.md           
