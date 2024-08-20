@@ -33,11 +33,7 @@
 # Directory description
     ├── readme.md           
     
-    ├── data             
-    
-    │   ├── .csv       // csv files for preprocess
-    
-    │   └── .pkl       //pickle files for train, test, and validation
+    ├── data           //pickle files for train, test, and validation  
     
     ├── result         // expreriment results folder
     
